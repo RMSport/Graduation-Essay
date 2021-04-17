@@ -1,0 +1,17 @@
+<?php
+    require_once('../config.php');
+    $level=L1;
+    $_isHome=false;
+    $_isHome02=false;
+    $_isHome03=false;
+    $_isAbout=false;
+    $_isBlogDetail=false;
+    $_isBlog=false;
+    $_isContact=false;
+    $_isProdDetail=false;
+    $_isProduct=true;
+	$_isProductclub=false;
+	$_isProductnation=false;
+	$_isShop=false;
+    require_once($level.'layout.php')
+?>
